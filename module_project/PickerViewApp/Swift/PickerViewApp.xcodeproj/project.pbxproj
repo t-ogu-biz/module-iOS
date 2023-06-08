@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F7638C61FE26CF7003E31E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7638C51FE26CF7003E31E8 /* AppDelegate.swift */; };
+		0F7638C81FE26CF7003E31E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7638C71FE26CF7003E31E8 /* ViewController.swift */; };
+		0F7638CB1FE26CF7003E31E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7638C91FE26CF7003E31E8 /* Main.storyboard */; };
+		0F7638CD1FE26CF7003E31E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F7638CC1FE26CF7003E31E8 /* Assets.xcassets */; };
+		0F7638D01FE26CF7003E31E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7638CE1FE26CF7003E31E8 /* LaunchScreen.storyboard */; };
+		0F7638DA1FE2709D003E31E8 /* UITextField+autoCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7638D91FE2709D003E31E8 /* UITextField+autoCustom.m */; };
+		0F7638DF1FE272AE003E31E8 /* UIDevice+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7638DE1FE272AD003E31E8 /* UIDevice+Model.m */; };
+		0F9BBC791FE3CE7500005126 /* SizeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BBC781FE3CE7500005126 /* SizeManager.swift */; };
+		0FAFD8731FE79D4B00F7FC20 /* UITextField + UIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFD8721FE79D4B00F7FC20 /* UITextField + UIDatePicker.swift */; };
+		0FAFD8791FE7B53B00F7FC20 /* SelectedTimeViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFD8781FE7B53B00F7FC20 /* SelectedTimeViewViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F7638C21FE26CF7003E31E8 /* PickerViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7638C51FE26CF7003E31E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F7638C71FE26CF7003E31E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F7638CA1FE26CF7003E31E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F7638CC1FE26CF7003E31E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F7638CF1FE26CF7003E31E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F7638D11FE26CF7003E31E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F7638D71FE2709C003E31E8 /* PickerViewApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PickerViewApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		0F7638D81FE2709C003E31E8 /* UITextField+autoCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+autoCustom.h"; sourceTree = "<group>"; };
+		0F7638D91FE2709D003E31E8 /* UITextField+autoCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+autoCustom.m"; sourceTree = "<group>"; };
+		0F7638DD1FE272AD003E31E8 /* UIDevice+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Model.h"; sourceTree = "<group>"; };
+		0F7638DE1FE272AD003E31E8 /* UIDevice+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Model.m"; sourceTree = "<group>"; };
+		0F9BBC781FE3CE7500005126 /* SizeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeManager.swift; sourceTree = "<group>"; };
+		0FAFD8721FE79D4B00F7FC20 /* UITextField + UIDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField + UIDatePicker.swift"; sourceTree = "<group>"; };
+		0FAFD8781FE7B53B00F7FC20 /* SelectedTimeViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedTimeViewViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F7638BF1FE26CF7003E31E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7638B91FE26CF7003E31E8 = {
+			isa = PBXGroup;
+			children = (
+				0F7638C41FE26CF7003E31E8 /* PickerViewApp */,
+				0F7638C31FE26CF7003E31E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F7638C31FE26CF7003E31E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F7638C21FE26CF7003E31E8 /* PickerViewApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F7638C41FE26CF7003E31E8 /* PickerViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				0F7638C51FE26CF7003E31E8 /* AppDelegate.swift */,
+				0F9BBC701FE3CCC800005126 /* Page */,
+				0F9BBC761FE3CD9500005126 /* Library */,
+				0F7638C91FE26CF7003E31E8 /* Main.storyboard */,
+				0F7638CC1FE26CF7003E31E8 /* Assets.xcassets */,
+				0F7638CE1FE26CF7003E31E8 /* LaunchScreen.storyboard */,
+				0F7638D11FE26CF7003E31E8 /* Info.plist */,
+				0F7638D71FE2709C003E31E8 /* PickerViewApp-Bridging-Header.h */,
+			);
+			path = PickerViewApp;
+			sourceTree = "<group>";
+		};
+		0F9BBC701FE3CCC800005126 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				0FAFD8741FE7AF1C00F7FC20 /* SelectedTimeView */,
+				0F9BBC711FE3CCD300005126 /* PickerView */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		0F9BBC711FE3CCD300005126 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				0F9BBC751FE3CD0D00005126 /* Model */,
+				0F9BBC731FE3CCFF00005126 /* View */,
+				0F9BBC721FE3CCE100005126 /* Controller */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		0F9BBC721FE3CCE100005126 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0F7638C71FE26CF7003E31E8 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0F9BBC731FE3CCFF00005126 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0FAFD8721FE79D4B00F7FC20 /* UITextField + UIDatePicker.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F9BBC751FE3CD0D00005126 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F9BBC761FE3CD9500005126 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0F9BBC771FE3CDA200005126 /* Utility */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		0F9BBC771FE3CDA200005126 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0F7638D81FE2709C003E31E8 /* UITextField+autoCustom.h */,
+				0F7638D91FE2709D003E31E8 /* UITextField+autoCustom.m */,
+				0F7638DD1FE272AD003E31E8 /* UIDevice+Model.h */,
+				0F7638DE1FE272AD003E31E8 /* UIDevice+Model.m */,
+				0F9BBC781FE3CE7500005126 /* SizeManager.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		0FAFD8741FE7AF1C00F7FC20 /* SelectedTimeView */ = {
+			isa = PBXGroup;
+			children = (
+				0FAFD8771FE7AF3400F7FC20 /* Model */,
+				0FAFD8761FE7AF2E00F7FC20 /* View */,
+				0FAFD8751FE7AF2500F7FC20 /* Controller */,
+			);
+			path = SelectedTimeView;
+			sourceTree = "<group>";
+		};
+		0FAFD8751FE7AF2500F7FC20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0FAFD8781FE7B53B00F7FC20 /* SelectedTimeViewViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0FAFD8761FE7AF2E00F7FC20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0FAFD8771FE7AF3400F7FC20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F7638C11FE26CF7003E31E8 /* PickerViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7638D41FE26CF7003E31E8 /* Build configuration list for PBXNativeTarget "PickerViewApp" */;
+			buildPhases = (
+				0F7638BE1FE26CF7003E31E8 /* Sources */,
+				0F7638BF1FE26CF7003E31E8 /* Frameworks */,
+				0F7638C01FE26CF7003E31E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickerViewApp;
+			productName = PickerViewApp;
+			productReference = 0F7638C21FE26CF7003E31E8 /* PickerViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F7638BA1FE26CF7003E31E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "小口 哲史";
+				TargetAttributes = {
+					0F7638C11FE26CF7003E31E8 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0F7638BD1FE26CF7003E31E8 /* Build configuration list for PBXProject "PickerViewApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F7638B91FE26CF7003E31E8;
+			productRefGroup = 0F7638C31FE26CF7003E31E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F7638C11FE26CF7003E31E8 /* PickerViewApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F7638C01FE26CF7003E31E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7638D01FE26CF7003E31E8 /* LaunchScreen.storyboard in Resources */,
+				0F7638CD1FE26CF7003E31E8 /* Assets.xcassets in Resources */,
+				0F7638CB1FE26CF7003E31E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F7638BE1FE26CF7003E31E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAFD8731FE79D4B00F7FC20 /* UITextField + UIDatePicker.swift in Sources */,
+				0F7638C81FE26CF7003E31E8 /* ViewController.swift in Sources */,
+				0F7638C61FE26CF7003E31E8 /* AppDelegate.swift in Sources */,
+				0F7638DF1FE272AE003E31E8 /* UIDevice+Model.m in Sources */,
+				0F7638DA1FE2709D003E31E8 /* UITextField+autoCustom.m in Sources */,
+				0F9BBC791FE3CE7500005126 /* SizeManager.swift in Sources */,
+				0FAFD8791FE7B53B00F7FC20 /* SelectedTimeViewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F7638C91FE26CF7003E31E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F7638CA1FE26CF7003E31E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F7638CE1FE26CF7003E31E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F7638CF1FE26CF7003E31E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F7638D21FE26CF7003E31E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F7638D31FE26CF7003E31E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F7638D51FE26CF7003E31E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = PickerViewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.PickerViewAppSwift.PickerViewApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PickerViewApp/PickerViewApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F7638D61FE26CF7003E31E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = PickerViewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.PickerViewAppSwift.PickerViewApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PickerViewApp/PickerViewApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F7638BD1FE26CF7003E31E8 /* Build configuration list for PBXProject "PickerViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7638D21FE26CF7003E31E8 /* Debug */,
+				0F7638D31FE26CF7003E31E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F7638D41FE26CF7003E31E8 /* Build configuration list for PBXNativeTarget "PickerViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7638D51FE26CF7003E31E8 /* Debug */,
+				0F7638D61FE26CF7003E31E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F7638BA1FE26CF7003E31E8 /* Project object */;
+}

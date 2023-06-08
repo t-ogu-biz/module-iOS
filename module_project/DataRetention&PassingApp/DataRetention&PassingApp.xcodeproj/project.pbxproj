@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC6A59701E5FD73A00A948B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6A596F1E5FD73A00A948B9 /* main.m */; };
+		EC6A59731E5FD73A00A948B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6A59721E5FD73A00A948B9 /* AppDelegate.m */; };
+		EC6A59761E5FD73A00A948B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6A59751E5FD73A00A948B9 /* ViewController.m */; };
+		EC6A59791E5FD73B00A948B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6A59771E5FD73B00A948B9 /* Main.storyboard */; };
+		EC6A597B1E5FD73B00A948B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6A597A1E5FD73B00A948B9 /* Assets.xcassets */; };
+		EC6A597E1E5FD73B00A948B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6A597C1E5FD73B00A948B9 /* LaunchScreen.storyboard */; };
+		EC6A59891E5FD73B00A948B9 /* DataRetention_PassingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6A59881E5FD73B00A948B9 /* DataRetention_PassingAppTests.m */; };
+		EC6A59941E5FD73B00A948B9 /* DataRetention_PassingAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6A59931E5FD73B00A948B9 /* DataRetention_PassingAppUITests.m */; };
+		EC6A59A31E5FD97A00A948B9 /* AfterTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6A59A21E5FD97A00A948B9 /* AfterTransitionViewController.m */; };
+		EC6A59A61E6042A900A948B9 /* AfterModalTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6A59A51E6042A900A948B9 /* AfterModalTransitionViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC6A59851E5FD73B00A948B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6A59631E5FD73A00A948B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6A596A1E5FD73A00A948B9;
+			remoteInfo = "DataRetention&PassingApp";
+		};
+		EC6A59901E5FD73B00A948B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6A59631E5FD73A00A948B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6A596A1E5FD73A00A948B9;
+			remoteInfo = "DataRetention&PassingApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC6A596B1E5FD73A00A948B9 /* DataRetention&PassingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DataRetention&PassingApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6A596F1E5FD73A00A948B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC6A59711E5FD73A00A948B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC6A59721E5FD73A00A948B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC6A59741E5FD73A00A948B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC6A59751E5FD73A00A948B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC6A59781E5FD73B00A948B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC6A597A1E5FD73B00A948B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC6A597D1E5FD73B00A948B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC6A597F1E5FD73B00A948B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6A59841E5FD73B00A948B9 /* DataRetention&PassingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DataRetention&PassingAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6A59881E5FD73B00A948B9 /* DataRetention_PassingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataRetention_PassingAppTests.m; sourceTree = "<group>"; };
+		EC6A598A1E5FD73B00A948B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6A598F1E5FD73B00A948B9 /* DataRetention&PassingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DataRetention&PassingAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6A59931E5FD73B00A948B9 /* DataRetention_PassingAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataRetention_PassingAppUITests.m; sourceTree = "<group>"; };
+		EC6A59951E5FD73B00A948B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6A59A11E5FD97A00A948B9 /* AfterTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AfterTransitionViewController.h; sourceTree = "<group>"; };
+		EC6A59A21E5FD97A00A948B9 /* AfterTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AfterTransitionViewController.m; sourceTree = "<group>"; };
+		EC6A59A41E6042A900A948B9 /* AfterModalTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AfterModalTransitionViewController.h; sourceTree = "<group>"; };
+		EC6A59A51E6042A900A948B9 /* AfterModalTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AfterModalTransitionViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC6A59681E5FD73A00A948B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6A59811E5FD73B00A948B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6A598C1E5FD73B00A948B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC6A59621E5FD73A00A948B9 = {
+			isa = PBXGroup;
+			children = (
+				EC6A596D1E5FD73A00A948B9 /* DataRetention&PassingApp */,
+				EC6A59871E5FD73B00A948B9 /* DataRetention&PassingAppTests */,
+				EC6A59921E5FD73B00A948B9 /* DataRetention&PassingAppUITests */,
+				EC6A596C1E5FD73A00A948B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC6A596C1E5FD73A00A948B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC6A596B1E5FD73A00A948B9 /* DataRetention&PassingApp.app */,
+				EC6A59841E5FD73B00A948B9 /* DataRetention&PassingAppTests.xctest */,
+				EC6A598F1E5FD73B00A948B9 /* DataRetention&PassingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC6A596D1E5FD73A00A948B9 /* DataRetention&PassingApp */ = {
+			isa = PBXGroup;
+			children = (
+				EC6A59711E5FD73A00A948B9 /* AppDelegate.h */,
+				EC6A59721E5FD73A00A948B9 /* AppDelegate.m */,
+				EC6A59741E5FD73A00A948B9 /* ViewController.h */,
+				EC6A59751E5FD73A00A948B9 /* ViewController.m */,
+				EC6A59A11E5FD97A00A948B9 /* AfterTransitionViewController.h */,
+				EC6A59A21E5FD97A00A948B9 /* AfterTransitionViewController.m */,
+				EC6A59A41E6042A900A948B9 /* AfterModalTransitionViewController.h */,
+				EC6A59A51E6042A900A948B9 /* AfterModalTransitionViewController.m */,
+				EC6A59771E5FD73B00A948B9 /* Main.storyboard */,
+				EC6A597A1E5FD73B00A948B9 /* Assets.xcassets */,
+				EC6A597C1E5FD73B00A948B9 /* LaunchScreen.storyboard */,
+				EC6A597F1E5FD73B00A948B9 /* Info.plist */,
+				EC6A596E1E5FD73A00A948B9 /* Supporting Files */,
+			);
+			path = "DataRetention&PassingApp";
+			sourceTree = "<group>";
+		};
+		EC6A596E1E5FD73A00A948B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC6A596F1E5FD73A00A948B9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC6A59871E5FD73B00A948B9 /* DataRetention&PassingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6A59881E5FD73B00A948B9 /* DataRetention_PassingAppTests.m */,
+				EC6A598A1E5FD73B00A948B9 /* Info.plist */,
+			);
+			path = "DataRetention&PassingAppTests";
+			sourceTree = "<group>";
+		};
+		EC6A59921E5FD73B00A948B9 /* DataRetention&PassingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6A59931E5FD73B00A948B9 /* DataRetention_PassingAppUITests.m */,
+				EC6A59951E5FD73B00A948B9 /* Info.plist */,
+			);
+			path = "DataRetention&PassingAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC6A596A1E5FD73A00A948B9 /* DataRetention&PassingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6A59981E5FD73B00A948B9 /* Build configuration list for PBXNativeTarget "DataRetention&PassingApp" */;
+			buildPhases = (
+				EC6A59671E5FD73A00A948B9 /* Sources */,
+				EC6A59681E5FD73A00A948B9 /* Frameworks */,
+				EC6A59691E5FD73A00A948B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DataRetention&PassingApp";
+			productName = "DataRetention&PassingApp";
+			productReference = EC6A596B1E5FD73A00A948B9 /* DataRetention&PassingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC6A59831E5FD73B00A948B9 /* DataRetention&PassingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6A599B1E5FD73B00A948B9 /* Build configuration list for PBXNativeTarget "DataRetention&PassingAppTests" */;
+			buildPhases = (
+				EC6A59801E5FD73B00A948B9 /* Sources */,
+				EC6A59811E5FD73B00A948B9 /* Frameworks */,
+				EC6A59821E5FD73B00A948B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6A59861E5FD73B00A948B9 /* PBXTargetDependency */,
+			);
+			name = "DataRetention&PassingAppTests";
+			productName = "DataRetention&PassingAppTests";
+			productReference = EC6A59841E5FD73B00A948B9 /* DataRetention&PassingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC6A598E1E5FD73B00A948B9 /* DataRetention&PassingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6A599E1E5FD73B00A948B9 /* Build configuration list for PBXNativeTarget "DataRetention&PassingAppUITests" */;
+			buildPhases = (
+				EC6A598B1E5FD73B00A948B9 /* Sources */,
+				EC6A598C1E5FD73B00A948B9 /* Frameworks */,
+				EC6A598D1E5FD73B00A948B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6A59911E5FD73B00A948B9 /* PBXTargetDependency */,
+			);
+			name = "DataRetention&PassingAppUITests";
+			productName = "DataRetention&PassingAppUITests";
+			productReference = EC6A598F1E5FD73B00A948B9 /* DataRetention&PassingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC6A59631E5FD73A00A948B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = microwave;
+				TargetAttributes = {
+					EC6A596A1E5FD73A00A948B9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2R4QS48Y83;
+						ProvisioningStyle = Automatic;
+					};
+					EC6A59831E5FD73B00A948B9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2R4QS48Y83;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC6A596A1E5FD73A00A948B9;
+					};
+					EC6A598E1E5FD73B00A948B9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2R4QS48Y83;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC6A596A1E5FD73A00A948B9;
+					};
+				};
+			};
+			buildConfigurationList = EC6A59661E5FD73A00A948B9 /* Build configuration list for PBXProject "DataRetention&PassingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC6A59621E5FD73A00A948B9;
+			productRefGroup = EC6A596C1E5FD73A00A948B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC6A596A1E5FD73A00A948B9 /* DataRetention&PassingApp */,
+				EC6A59831E5FD73B00A948B9 /* DataRetention&PassingAppTests */,
+				EC6A598E1E5FD73B00A948B9 /* DataRetention&PassingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC6A59691E5FD73A00A948B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6A597E1E5FD73B00A948B9 /* LaunchScreen.storyboard in Resources */,
+				EC6A597B1E5FD73B00A948B9 /* Assets.xcassets in Resources */,
+				EC6A59791E5FD73B00A948B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6A59821E5FD73B00A948B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6A598D1E5FD73B00A948B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6A59671E5FD73A00A948B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6A59761E5FD73A00A948B9 /* ViewController.m in Sources */,
+				EC6A59A61E6042A900A948B9 /* AfterModalTransitionViewController.m in Sources */,
+				EC6A59731E5FD73A00A948B9 /* AppDelegate.m in Sources */,
+				EC6A59A31E5FD97A00A948B9 /* AfterTransitionViewController.m in Sources */,
+				EC6A59701E5FD73A00A948B9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6A59801E5FD73B00A948B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6A59891E5FD73B00A948B9 /* DataRetention_PassingAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6A598B1E5FD73B00A948B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6A59941E5FD73B00A948B9 /* DataRetention_PassingAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC6A59861E5FD73B00A948B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC6A596A1E5FD73A00A948B9 /* DataRetention&PassingApp */;
+			targetProxy = EC6A59851E5FD73B00A948B9 /* PBXContainerItemProxy */;
+		};
+		EC6A59911E5FD73B00A948B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC6A596A1E5FD73A00A948B9 /* DataRetention&PassingApp */;
+			targetProxy = EC6A59901E5FD73B00A948B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC6A59771E5FD73B00A948B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6A59781E5FD73B00A948B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC6A597C1E5FD73B00A948B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6A597D1E5FD73B00A948B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC6A59961E5FD73B00A948B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC6A59971E5FD73B00A948B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC6A59991E5FD73B00A948B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = "DataRetention&PassingApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.DataRetention-PassingApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC6A599A1E5FD73B00A948B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = "DataRetention&PassingApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.DataRetention-PassingApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC6A599C1E5FD73B00A948B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = "DataRetention&PassingAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.DataRetention-PassingAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataRetention&PassingApp.app/DataRetention&PassingApp";
+			};
+			name = Debug;
+		};
+		EC6A599D1E5FD73B00A948B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = "DataRetention&PassingAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.DataRetention-PassingAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataRetention&PassingApp.app/DataRetention&PassingApp";
+			};
+			name = Release;
+		};
+		EC6A599F1E5FD73B00A948B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = "DataRetention&PassingAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.DataRetention-PassingAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DataRetention&PassingApp";
+			};
+			name = Debug;
+		};
+		EC6A59A01E5FD73B00A948B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = "DataRetention&PassingAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.DataRetention-PassingAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DataRetention&PassingApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6A59661E5FD73A00A948B9 /* Build configuration list for PBXProject "DataRetention&PassingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6A59961E5FD73B00A948B9 /* Debug */,
+				EC6A59971E5FD73B00A948B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6A59981E5FD73B00A948B9 /* Build configuration list for PBXNativeTarget "DataRetention&PassingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6A59991E5FD73B00A948B9 /* Debug */,
+				EC6A599A1E5FD73B00A948B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6A599B1E5FD73B00A948B9 /* Build configuration list for PBXNativeTarget "DataRetention&PassingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6A599C1E5FD73B00A948B9 /* Debug */,
+				EC6A599D1E5FD73B00A948B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6A599E1E5FD73B00A948B9 /* Build configuration list for PBXNativeTarget "DataRetention&PassingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6A599F1E5FD73B00A948B9 /* Debug */,
+				EC6A59A01E5FD73B00A948B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC6A59631E5FD73A00A948B9 /* Project object */;
+}

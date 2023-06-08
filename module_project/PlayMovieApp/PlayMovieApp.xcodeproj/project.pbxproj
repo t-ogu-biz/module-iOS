@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECC4B0BF1E924092004635EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC4B0BE1E924092004635EF /* main.m */; };
+		ECC4B0C21E924092004635EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC4B0C11E924092004635EF /* AppDelegate.m */; };
+		ECC4B0C51E924092004635EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC4B0C41E924092004635EF /* ViewController.m */; };
+		ECC4B0C81E924092004635EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC4B0C61E924092004635EF /* Main.storyboard */; };
+		ECC4B0CA1E924092004635EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC4B0C91E924092004635EF /* Assets.xcassets */; };
+		ECC4B0CD1E924092004635EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC4B0CB1E924092004635EF /* LaunchScreen.storyboard */; };
+		ECC4B0D81E924092004635EF /* PlayMovieAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC4B0D71E924092004635EF /* PlayMovieAppTests.m */; };
+		ECC4B0E31E924092004635EF /* PlayMovieAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC4B0E21E924092004635EF /* PlayMovieAppUITests.m */; };
+		ECC4B0F21E9242F3004635EF /* PreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC4B0F11E9242F3004635EF /* PreviewViewController.m */; };
+		ECC4B0F51E924619004635EF /* GetAllAssetsTask.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC4B0F41E924619004635EF /* GetAllAssetsTask.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECC4B0D41E924092004635EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC4B0B21E924092004635EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC4B0B91E924092004635EF;
+			remoteInfo = PlayMovieApp;
+		};
+		ECC4B0DF1E924092004635EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC4B0B21E924092004635EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC4B0B91E924092004635EF;
+			remoteInfo = PlayMovieApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECC4B0BA1E924092004635EF /* PlayMovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayMovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC4B0BE1E924092004635EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECC4B0C01E924092004635EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECC4B0C11E924092004635EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECC4B0C31E924092004635EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECC4B0C41E924092004635EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECC4B0C71E924092004635EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECC4B0C91E924092004635EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECC4B0CC1E924092004635EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECC4B0CE1E924092004635EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC4B0D31E924092004635EF /* PlayMovieAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayMovieAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC4B0D71E924092004635EF /* PlayMovieAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayMovieAppTests.m; sourceTree = "<group>"; };
+		ECC4B0D91E924092004635EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC4B0DE1E924092004635EF /* PlayMovieAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayMovieAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC4B0E21E924092004635EF /* PlayMovieAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayMovieAppUITests.m; sourceTree = "<group>"; };
+		ECC4B0E41E924092004635EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC4B0F01E9242F3004635EF /* PreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewViewController.h; sourceTree = "<group>"; };
+		ECC4B0F11E9242F3004635EF /* PreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewViewController.m; sourceTree = "<group>"; };
+		ECC4B0F31E924619004635EF /* GetAllAssetsTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAllAssetsTask.h; sourceTree = "<group>"; };
+		ECC4B0F41E924619004635EF /* GetAllAssetsTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAllAssetsTask.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC4B0B71E924092004635EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC4B0D01E924092004635EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC4B0DB1E924092004635EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECC4B0B11E924092004635EF = {
+			isa = PBXGroup;
+			children = (
+				ECC4B0BC1E924092004635EF /* PlayMovieApp */,
+				ECC4B0D61E924092004635EF /* PlayMovieAppTests */,
+				ECC4B0E11E924092004635EF /* PlayMovieAppUITests */,
+				ECC4B0BB1E924092004635EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC4B0BB1E924092004635EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC4B0BA1E924092004635EF /* PlayMovieApp.app */,
+				ECC4B0D31E924092004635EF /* PlayMovieAppTests.xctest */,
+				ECC4B0DE1E924092004635EF /* PlayMovieAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC4B0BC1E924092004635EF /* PlayMovieApp */ = {
+			isa = PBXGroup;
+			children = (
+				ECC4B0C01E924092004635EF /* AppDelegate.h */,
+				ECC4B0C11E924092004635EF /* AppDelegate.m */,
+				ECC4B0C31E924092004635EF /* ViewController.h */,
+				ECC4B0C41E924092004635EF /* ViewController.m */,
+				ECC4B0F01E9242F3004635EF /* PreviewViewController.h */,
+				ECC4B0F11E9242F3004635EF /* PreviewViewController.m */,
+				ECC4B0F31E924619004635EF /* GetAllAssetsTask.h */,
+				ECC4B0F41E924619004635EF /* GetAllAssetsTask.m */,
+				ECC4B0C61E924092004635EF /* Main.storyboard */,
+				ECC4B0C91E924092004635EF /* Assets.xcassets */,
+				ECC4B0CB1E924092004635EF /* LaunchScreen.storyboard */,
+				ECC4B0CE1E924092004635EF /* Info.plist */,
+				ECC4B0BD1E924092004635EF /* Supporting Files */,
+			);
+			path = PlayMovieApp;
+			sourceTree = "<group>";
+		};
+		ECC4B0BD1E924092004635EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC4B0BE1E924092004635EF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECC4B0D61E924092004635EF /* PlayMovieAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC4B0D71E924092004635EF /* PlayMovieAppTests.m */,
+				ECC4B0D91E924092004635EF /* Info.plist */,
+			);
+			path = PlayMovieAppTests;
+			sourceTree = "<group>";
+		};
+		ECC4B0E11E924092004635EF /* PlayMovieAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC4B0E21E924092004635EF /* PlayMovieAppUITests.m */,
+				ECC4B0E41E924092004635EF /* Info.plist */,
+			);
+			path = PlayMovieAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC4B0B91E924092004635EF /* PlayMovieApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC4B0E71E924092004635EF /* Build configuration list for PBXNativeTarget "PlayMovieApp" */;
+			buildPhases = (
+				ECC4B0B61E924092004635EF /* Sources */,
+				ECC4B0B71E924092004635EF /* Frameworks */,
+				ECC4B0B81E924092004635EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayMovieApp;
+			productName = PlayMovieApp;
+			productReference = ECC4B0BA1E924092004635EF /* PlayMovieApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECC4B0D21E924092004635EF /* PlayMovieAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC4B0EA1E924092004635EF /* Build configuration list for PBXNativeTarget "PlayMovieAppTests" */;
+			buildPhases = (
+				ECC4B0CF1E924092004635EF /* Sources */,
+				ECC4B0D01E924092004635EF /* Frameworks */,
+				ECC4B0D11E924092004635EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC4B0D51E924092004635EF /* PBXTargetDependency */,
+			);
+			name = PlayMovieAppTests;
+			productName = PlayMovieAppTests;
+			productReference = ECC4B0D31E924092004635EF /* PlayMovieAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECC4B0DD1E924092004635EF /* PlayMovieAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC4B0ED1E924092004635EF /* Build configuration list for PBXNativeTarget "PlayMovieAppUITests" */;
+			buildPhases = (
+				ECC4B0DA1E924092004635EF /* Sources */,
+				ECC4B0DB1E924092004635EF /* Frameworks */,
+				ECC4B0DC1E924092004635EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC4B0E01E924092004635EF /* PBXTargetDependency */,
+			);
+			name = PlayMovieAppUITests;
+			productName = PlayMovieAppUITests;
+			productReference = ECC4B0DE1E924092004635EF /* PlayMovieAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC4B0B21E924092004635EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = microwave;
+				TargetAttributes = {
+					ECC4B0B91E924092004635EF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2R4QS48Y83;
+						ProvisioningStyle = Automatic;
+					};
+					ECC4B0D21E924092004635EF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2R4QS48Y83;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECC4B0B91E924092004635EF;
+					};
+					ECC4B0DD1E924092004635EF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2R4QS48Y83;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECC4B0B91E924092004635EF;
+					};
+				};
+			};
+			buildConfigurationList = ECC4B0B51E924092004635EF /* Build configuration list for PBXProject "PlayMovieApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECC4B0B11E924092004635EF;
+			productRefGroup = ECC4B0BB1E924092004635EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC4B0B91E924092004635EF /* PlayMovieApp */,
+				ECC4B0D21E924092004635EF /* PlayMovieAppTests */,
+				ECC4B0DD1E924092004635EF /* PlayMovieAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECC4B0B81E924092004635EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC4B0CD1E924092004635EF /* LaunchScreen.storyboard in Resources */,
+				ECC4B0CA1E924092004635EF /* Assets.xcassets in Resources */,
+				ECC4B0C81E924092004635EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC4B0D11E924092004635EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC4B0DC1E924092004635EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC4B0B61E924092004635EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC4B0C51E924092004635EF /* ViewController.m in Sources */,
+				ECC4B0C21E924092004635EF /* AppDelegate.m in Sources */,
+				ECC4B0F51E924619004635EF /* GetAllAssetsTask.m in Sources */,
+				ECC4B0BF1E924092004635EF /* main.m in Sources */,
+				ECC4B0F21E9242F3004635EF /* PreviewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC4B0CF1E924092004635EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC4B0D81E924092004635EF /* PlayMovieAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC4B0DA1E924092004635EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC4B0E31E924092004635EF /* PlayMovieAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECC4B0D51E924092004635EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC4B0B91E924092004635EF /* PlayMovieApp */;
+			targetProxy = ECC4B0D41E924092004635EF /* PBXContainerItemProxy */;
+		};
+		ECC4B0E01E924092004635EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC4B0B91E924092004635EF /* PlayMovieApp */;
+			targetProxy = ECC4B0DF1E924092004635EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECC4B0C61E924092004635EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC4B0C71E924092004635EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECC4B0CB1E924092004635EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC4B0CC1E924092004635EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECC4B0E51E924092004635EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECC4B0E61E924092004635EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECC4B0E81E924092004635EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = PlayMovieApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.PlayMovieApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECC4B0E91E924092004635EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = PlayMovieApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.PlayMovieApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECC4B0EB1E924092004635EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = PlayMovieAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.PlayMovieAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayMovieApp.app/PlayMovieApp";
+			};
+			name = Debug;
+		};
+		ECC4B0EC1E924092004635EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = PlayMovieAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.PlayMovieAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayMovieApp.app/PlayMovieApp";
+			};
+			name = Release;
+		};
+		ECC4B0EE1E924092004635EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = PlayMovieAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.PlayMovieAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlayMovieApp;
+			};
+			name = Debug;
+		};
+		ECC4B0EF1E924092004635EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = PlayMovieAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.PlayMovieAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlayMovieApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC4B0B51E924092004635EF /* Build configuration list for PBXProject "PlayMovieApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC4B0E51E924092004635EF /* Debug */,
+				ECC4B0E61E924092004635EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC4B0E71E924092004635EF /* Build configuration list for PBXNativeTarget "PlayMovieApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC4B0E81E924092004635EF /* Debug */,
+				ECC4B0E91E924092004635EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC4B0EA1E924092004635EF /* Build configuration list for PBXNativeTarget "PlayMovieAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC4B0EB1E924092004635EF /* Debug */,
+				ECC4B0EC1E924092004635EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC4B0ED1E924092004635EF /* Build configuration list for PBXNativeTarget "PlayMovieAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC4B0EE1E924092004635EF /* Debug */,
+				ECC4B0EF1E924092004635EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECC4B0B21E924092004635EF /* Project object */;
+}

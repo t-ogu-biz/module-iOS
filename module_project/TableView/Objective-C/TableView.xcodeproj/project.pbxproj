@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF15D7C81D163EFE009B826F /* TableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF15D7C71D163EFE009B826F /* TableViewManager.m */; };
+		FF15D7CB1D164679009B826F /* SmartPhoneTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF15D7CA1D164679009B826F /* SmartPhoneTableViewManager.m */; };
+		FF15D7D61D174F03009B826F /* Xperia X Performance S0-04H.png in Resources */ = {isa = PBXBuildFile; fileRef = FF15D7D51D174F03009B826F /* Xperia X Performance S0-04H.png */; };
+		FF220F221D15AF0700B75283 /* AQUOS ZETA SH-04H.png in Resources */ = {isa = PBXBuildFile; fileRef = FF220F1A1D15AF0700B75283 /* AQUOS ZETA SH-04H.png */; };
+		FF220F231D15AF0700B75283 /* Xperia X Performance.png in Resources */ = {isa = PBXBuildFile; fileRef = FF220F1B1D15AF0700B75283 /* Xperia X Performance.png */; };
+		FF220F241D15AF0700B75283 /* iPhone SE.png in Resources */ = {isa = PBXBuildFile; fileRef = FF220F1C1D15AF0700B75283 /* iPhone SE.png */; };
+		FF220F251D15AF0700B75283 /* Galaxy S7 edge SCV33.png in Resources */ = {isa = PBXBuildFile; fileRef = FF220F1D1D15AF0700B75283 /* Galaxy S7 edge SCV33.png */; };
+		FF220F261D15AF0700B75283 /* BREEZ X5.png in Resources */ = {isa = PBXBuildFile; fileRef = FF220F1E1D15AF0700B75283 /* BREEZ X5.png */; };
+		FF220F271D15AF0700B75283 /* AQUOS ZETA SH-04H.png in Resources */ = {isa = PBXBuildFile; fileRef = FF220F1F1D15AF0700B75283 /* AQUOS ZETA SH-04H.png */; };
+		FF220F281D15AF0700B75283 /* HTC 10.png in Resources */ = {isa = PBXBuildFile; fileRef = FF220F201D15AF0700B75283 /* HTC 10.png */; };
+		FF220F291D15AF0700B75283 /* HUAWEI P9 Lite.png in Resources */ = {isa = PBXBuildFile; fileRef = FF220F211D15AF0700B75283 /* HUAWEI P9 Lite.png */; };
+		FF4143071D04266900902C70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4143061D04266900902C70 /* main.m */; };
+		FF41430A1D04266900902C70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4143091D04266900902C70 /* AppDelegate.m */; };
+		FF4143101D04266900902C70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF41430E1D04266900902C70 /* Main.storyboard */; };
+		FF4143151D04266900902C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4143141D04266900902C70 /* Assets.xcassets */; };
+		FF4143181D04266900902C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4143161D04266900902C70 /* LaunchScreen.storyboard */; };
+		FF4143231D04266900902C70 /* TableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4143221D04266900902C70 /* TableViewTests.m */; };
+		FF41432E1D04266900902C70 /* TableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF41432D1D04266900902C70 /* TableViewUITests.m */; };
+		FF41433D1D042D5C00902C70 /* SmartPhoneInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FF41433C1D042D5C00902C70 /* SmartPhoneInfo.m */; };
+		FF5546BE1D15362E00D960B6 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5546BD1D15362E00D960B6 /* DataManager.m */; };
+		FF5546CA1D15859A00D960B6 /* SmartPhoneListViewContorller.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5546C91D15859A00D960B6 /* SmartPhoneListViewContorller.m */; };
+		FF5546CE1D15864200D960B6 /* SmartPhoneListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5546CC1D15864200D960B6 /* SmartPhoneListViewCell.m */; };
+		FF5546CF1D15864200D960B6 /* SmartPhoneListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF5546CD1D15864200D960B6 /* SmartPhoneListViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF41431F1D04266900902C70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF4142FA1D04266900902C70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF4143011D04266900902C70;
+			remoteInfo = TableView;
+		};
+		FF41432A1D04266900902C70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF4142FA1D04266900902C70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF4143011D04266900902C70;
+			remoteInfo = TableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF15D7C61D163EFE009B826F /* TableViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewManager.h; path = pages/SmartPhoneList/View/TableViewManager.h; sourceTree = "<group>"; };
+		FF15D7C71D163EFE009B826F /* TableViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewManager.m; path = pages/SmartPhoneList/View/TableViewManager.m; sourceTree = "<group>"; };
+		FF15D7C91D164679009B826F /* SmartPhoneTableViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmartPhoneTableViewManager.h; path = pages/SmartPhoneList/View/SmartPhoneTableViewManager.h; sourceTree = "<group>"; };
+		FF15D7CA1D164679009B826F /* SmartPhoneTableViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmartPhoneTableViewManager.m; path = pages/SmartPhoneList/View/SmartPhoneTableViewManager.m; sourceTree = "<group>"; };
+		FF15D7D51D174F03009B826F /* Xperia X Performance S0-04H.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Xperia X Performance S0-04H.png"; path = "Resource/image/Xperia X Performance S0-04H.png"; sourceTree = "<group>"; };
+		FF220F1A1D15AF0700B75283 /* AQUOS ZETA SH-04H.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AQUOS ZETA SH-04H.png"; path = "Resource/image/AQUOS ZETA SH-04H.png"; sourceTree = "<group>"; };
+		FF220F1B1D15AF0700B75283 /* Xperia X Performance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Xperia X Performance.png"; path = "Resource/image/Xperia X Performance.png"; sourceTree = "<group>"; };
+		FF220F1C1D15AF0700B75283 /* iPhone SE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone SE.png"; path = "Resource/image/iPhone SE.png"; sourceTree = "<group>"; };
+		FF220F1D1D15AF0700B75283 /* Galaxy S7 edge SCV33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Galaxy S7 edge SCV33.png"; path = "Resource/image/Galaxy S7 edge SCV33.png"; sourceTree = "<group>"; };
+		FF220F1E1D15AF0700B75283 /* BREEZ X5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BREEZ X5.png"; path = "Resource/image/BREEZ X5.png"; sourceTree = "<group>"; };
+		FF220F1F1D15AF0700B75283 /* AQUOS ZETA SH-04H.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AQUOS ZETA SH-04H.png"; path = "Resource/image/AQUOS ZETA SH-04H.png"; sourceTree = "<group>"; };
+		FF220F201D15AF0700B75283 /* HTC 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HTC 10.png"; path = "Resource/image/HTC 10.png"; sourceTree = "<group>"; };
+		FF220F211D15AF0700B75283 /* HUAWEI P9 Lite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HUAWEI P9 Lite.png"; path = "Resource/image/HUAWEI P9 Lite.png"; sourceTree = "<group>"; };
+		FF4143021D04266900902C70 /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4143061D04266900902C70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF4143081D04266900902C70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF4143091D04266900902C70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF41430F1D04266900902C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF4143141D04266900902C70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF4143171D04266900902C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF4143191D04266900902C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF41431E1D04266900902C70 /* TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4143221D04266900902C70 /* TableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTests.m; sourceTree = "<group>"; };
+		FF4143241D04266900902C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4143291D04266900902C70 /* TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF41432D1D04266900902C70 /* TableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewUITests.m; sourceTree = "<group>"; };
+		FF41432F1D04266900902C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF41433B1D042D5C00902C70 /* SmartPhoneInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmartPhoneInfo.h; path = pages/SmartPhoneList/Model/SmartPhoneInfo.h; sourceTree = "<group>"; };
+		FF41433C1D042D5C00902C70 /* SmartPhoneInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmartPhoneInfo.m; path = pages/SmartPhoneList/Model/SmartPhoneInfo.m; sourceTree = "<group>"; };
+		FF5546BC1D15362E00D960B6 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataManager.h; path = pages/SmartPhoneList/Model/DataManager.h; sourceTree = "<group>"; };
+		FF5546BD1D15362E00D960B6 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataManager.m; path = pages/SmartPhoneList/Model/DataManager.m; sourceTree = "<group>"; };
+		FF5546C81D15859A00D960B6 /* SmartPhoneListViewContorller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmartPhoneListViewContorller.h; path = pages/SmartPhoneList/Controller/SmartPhoneListViewContorller.h; sourceTree = "<group>"; };
+		FF5546C91D15859A00D960B6 /* SmartPhoneListViewContorller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmartPhoneListViewContorller.m; path = pages/SmartPhoneList/Controller/SmartPhoneListViewContorller.m; sourceTree = "<group>"; };
+		FF5546CB1D15864200D960B6 /* SmartPhoneListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmartPhoneListViewCell.h; path = pages/SmartPhoneList/View/SmartPhoneListViewCell.h; sourceTree = "<group>"; };
+		FF5546CC1D15864200D960B6 /* SmartPhoneListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmartPhoneListViewCell.m; path = pages/SmartPhoneList/View/SmartPhoneListViewCell.m; sourceTree = "<group>"; };
+		FF5546CD1D15864200D960B6 /* SmartPhoneListViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SmartPhoneListViewCell.xib; path = pages/SmartPhoneList/View/SmartPhoneListViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4142FF1D04266900902C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF41431B1D04266900902C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4143261D04266900902C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF15D7CF1D174496009B826F /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				FF15D7D31D17457E009B826F /* SmartPhoneList */,
+			);
+			name = pages;
+			sourceTree = "<group>";
+		};
+		FF15D7D01D1744E7009B826F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF5546BC1D15362E00D960B6 /* DataManager.h */,
+				FF5546BD1D15362E00D960B6 /* DataManager.m */,
+				FF41433B1D042D5C00902C70 /* SmartPhoneInfo.h */,
+				FF41433C1D042D5C00902C70 /* SmartPhoneInfo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FF15D7D11D1744FF009B826F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF15D7C61D163EFE009B826F /* TableViewManager.h */,
+				FF15D7C71D163EFE009B826F /* TableViewManager.m */,
+				FF15D7C91D164679009B826F /* SmartPhoneTableViewManager.h */,
+				FF15D7CA1D164679009B826F /* SmartPhoneTableViewManager.m */,
+				FF5546CB1D15864200D960B6 /* SmartPhoneListViewCell.h */,
+				FF5546CC1D15864200D960B6 /* SmartPhoneListViewCell.m */,
+				FF5546CD1D15864200D960B6 /* SmartPhoneListViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FF15D7D21D17450F009B826F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF5546C81D15859A00D960B6 /* SmartPhoneListViewContorller.h */,
+				FF5546C91D15859A00D960B6 /* SmartPhoneListViewContorller.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FF15D7D31D17457E009B826F /* SmartPhoneList */ = {
+			isa = PBXGroup;
+			children = (
+				FF15D7D01D1744E7009B826F /* Model */,
+				FF15D7D11D1744FF009B826F /* View */,
+				FF15D7D21D17450F009B826F /* Controller */,
+			);
+			name = SmartPhoneList;
+			sourceTree = "<group>";
+		};
+		FF15D7D41D174862009B826F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FF220F191D15AD1600B75283 /* Image */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		FF220F191D15AD1600B75283 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				FF15D7D51D174F03009B826F /* Xperia X Performance S0-04H.png */,
+				FF220F1A1D15AF0700B75283 /* AQUOS ZETA SH-04H.png */,
+				FF220F1B1D15AF0700B75283 /* Xperia X Performance.png */,
+				FF220F1C1D15AF0700B75283 /* iPhone SE.png */,
+				FF220F1D1D15AF0700B75283 /* Galaxy S7 edge SCV33.png */,
+				FF220F1E1D15AF0700B75283 /* BREEZ X5.png */,
+				FF220F1F1D15AF0700B75283 /* AQUOS ZETA SH-04H.png */,
+				FF220F201D15AF0700B75283 /* HTC 10.png */,
+				FF220F211D15AF0700B75283 /* HUAWEI P9 Lite.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		FF4142F91D04266900902C70 = {
+			isa = PBXGroup;
+			children = (
+				FF4143041D04266900902C70 /* TableView */,
+				FF4143211D04266900902C70 /* TableViewTests */,
+				FF41432C1D04266900902C70 /* TableViewUITests */,
+				FF4143031D04266900902C70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF4143031D04266900902C70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF4143021D04266900902C70 /* TableView.app */,
+				FF41431E1D04266900902C70 /* TableViewTests.xctest */,
+				FF4143291D04266900902C70 /* TableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF4143041D04266900902C70 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				FF4143081D04266900902C70 /* AppDelegate.h */,
+				FF4143091D04266900902C70 /* AppDelegate.m */,
+				FF15D7CF1D174496009B826F /* pages */,
+				FF41430E1D04266900902C70 /* Main.storyboard */,
+				FF4143141D04266900902C70 /* Assets.xcassets */,
+				FF4143161D04266900902C70 /* LaunchScreen.storyboard */,
+				FF4143191D04266900902C70 /* Info.plist */,
+				FF15D7D41D174862009B826F /* Resource */,
+				FF4143051D04266900902C70 /* Supporting Files */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		FF4143051D04266900902C70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF4143061D04266900902C70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF4143211D04266900902C70 /* TableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF4143221D04266900902C70 /* TableViewTests.m */,
+				FF4143241D04266900902C70 /* Info.plist */,
+			);
+			path = TableViewTests;
+			sourceTree = "<group>";
+		};
+		FF41432C1D04266900902C70 /* TableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF41432D1D04266900902C70 /* TableViewUITests.m */,
+				FF41432F1D04266900902C70 /* Info.plist */,
+			);
+			path = TableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF4143011D04266900902C70 /* TableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4143321D04266900902C70 /* Build configuration list for PBXNativeTarget "TableView" */;
+			buildPhases = (
+				FF4142FE1D04266900902C70 /* Sources */,
+				FF4142FF1D04266900902C70 /* Frameworks */,
+				FF4143001D04266900902C70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableView;
+			productName = TableView;
+			productReference = FF4143021D04266900902C70 /* TableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF41431D1D04266900902C70 /* TableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4143351D04266900902C70 /* Build configuration list for PBXNativeTarget "TableViewTests" */;
+			buildPhases = (
+				FF41431A1D04266900902C70 /* Sources */,
+				FF41431B1D04266900902C70 /* Frameworks */,
+				FF41431C1D04266900902C70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF4143201D04266900902C70 /* PBXTargetDependency */,
+			);
+			name = TableViewTests;
+			productName = TableViewTests;
+			productReference = FF41431E1D04266900902C70 /* TableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF4143281D04266900902C70 /* TableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4143381D04266900902C70 /* Build configuration list for PBXNativeTarget "TableViewUITests" */;
+			buildPhases = (
+				FF4143251D04266900902C70 /* Sources */,
+				FF4143261D04266900902C70 /* Frameworks */,
+				FF4143271D04266900902C70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF41432B1D04266900902C70 /* PBXTargetDependency */,
+			);
+			name = TableViewUITests;
+			productName = TableViewUITests;
+			productReference = FF4143291D04266900902C70 /* TableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF4142FA1D04266900902C70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = yourCompany;
+				TargetAttributes = {
+					FF4143011D04266900902C70 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 2R4QS48Y83;
+					};
+					FF41431D1D04266900902C70 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FF4143011D04266900902C70;
+					};
+					FF4143281D04266900902C70 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FF4143011D04266900902C70;
+					};
+				};
+			};
+			buildConfigurationList = FF4142FD1D04266900902C70 /* Build configuration list for PBXProject "TableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF4142F91D04266900902C70;
+			productRefGroup = FF4143031D04266900902C70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF4143011D04266900902C70 /* TableView */,
+				FF41431D1D04266900902C70 /* TableViewTests */,
+				FF4143281D04266900902C70 /* TableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF4143001D04266900902C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF220F231D15AF0700B75283 /* Xperia X Performance.png in Resources */,
+				FF220F221D15AF0700B75283 /* AQUOS ZETA SH-04H.png in Resources */,
+				FF220F251D15AF0700B75283 /* Galaxy S7 edge SCV33.png in Resources */,
+				FF220F241D15AF0700B75283 /* iPhone SE.png in Resources */,
+				FF4143181D04266900902C70 /* LaunchScreen.storyboard in Resources */,
+				FF220F271D15AF0700B75283 /* AQUOS ZETA SH-04H.png in Resources */,
+				FF15D7D61D174F03009B826F /* Xperia X Performance S0-04H.png in Resources */,
+				FF4143151D04266900902C70 /* Assets.xcassets in Resources */,
+				FF220F291D15AF0700B75283 /* HUAWEI P9 Lite.png in Resources */,
+				FF220F281D15AF0700B75283 /* HTC 10.png in Resources */,
+				FF4143101D04266900902C70 /* Main.storyboard in Resources */,
+				FF220F261D15AF0700B75283 /* BREEZ X5.png in Resources */,
+				FF5546CF1D15864200D960B6 /* SmartPhoneListViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF41431C1D04266900902C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4143271D04266900902C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF4142FE1D04266900902C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5546BE1D15362E00D960B6 /* DataManager.m in Sources */,
+				FF15D7C81D163EFE009B826F /* TableViewManager.m in Sources */,
+				FF5546CA1D15859A00D960B6 /* SmartPhoneListViewContorller.m in Sources */,
+				FF5546CE1D15864200D960B6 /* SmartPhoneListViewCell.m in Sources */,
+				FF41433D1D042D5C00902C70 /* SmartPhoneInfo.m in Sources */,
+				FF41430A1D04266900902C70 /* AppDelegate.m in Sources */,
+				FF15D7CB1D164679009B826F /* SmartPhoneTableViewManager.m in Sources */,
+				FF4143071D04266900902C70 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF41431A1D04266900902C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4143231D04266900902C70 /* TableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4143251D04266900902C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF41432E1D04266900902C70 /* TableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF4143201D04266900902C70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF4143011D04266900902C70 /* TableView */;
+			targetProxy = FF41431F1D04266900902C70 /* PBXContainerItemProxy */;
+		};
+		FF41432B1D04266900902C70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF4143011D04266900902C70 /* TableView */;
+			targetProxy = FF41432A1D04266900902C70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF41430E1D04266900902C70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF41430F1D04266900902C70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF4143161D04266900902C70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4143171D04266900902C70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF4143301D04266900902C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF4143311D04266900902C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF4143331D04266900902C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = TableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yourCompany.TableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF4143341D04266900902C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = TableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yourCompany.TableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF4143361D04266900902C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yourCompany.TableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView.app/TableView";
+			};
+			name = Debug;
+		};
+		FF4143371D04266900902C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yourCompany.TableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView.app/TableView";
+			};
+			name = Release;
+		};
+		FF4143391D04266900902C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yourCompany.TableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FF41433A1D04266900902C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yourCompany.TableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF4142FD1D04266900902C70 /* Build configuration list for PBXProject "TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4143301D04266900902C70 /* Debug */,
+				FF4143311D04266900902C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4143321D04266900902C70 /* Build configuration list for PBXNativeTarget "TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4143331D04266900902C70 /* Debug */,
+				FF4143341D04266900902C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4143351D04266900902C70 /* Build configuration list for PBXNativeTarget "TableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4143361D04266900902C70 /* Debug */,
+				FF4143371D04266900902C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4143381D04266900902C70 /* Build configuration list for PBXNativeTarget "TableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4143391D04266900902C70 /* Debug */,
+				FF41433A1D04266900902C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF4142FA1D04266900902C70 /* Project object */;
+}

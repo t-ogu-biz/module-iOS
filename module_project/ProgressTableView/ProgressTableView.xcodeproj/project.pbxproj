@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECC504111E67D41C000E2B33 /* CellInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC504101E67D41C000E2B33 /* CellInfo.m */; };
+		FFA25E161E672ECA00F536D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA25E151E672ECA00F536D8 /* main.m */; };
+		FFA25E191E672ECA00F536D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA25E181E672ECA00F536D8 /* AppDelegate.m */; };
+		FFA25E1C1E672ECA00F536D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA25E1B1E672ECA00F536D8 /* ViewController.m */; };
+		FFA25E1F1E672ECA00F536D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA25E1D1E672ECA00F536D8 /* Main.storyboard */; };
+		FFA25E211E672ECA00F536D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA25E201E672ECA00F536D8 /* Assets.xcassets */; };
+		FFA25E241E672ECA00F536D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA25E221E672ECA00F536D8 /* LaunchScreen.storyboard */; };
+		FFA25E2F1E672ECA00F536D8 /* ProgressTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA25E2E1E672ECA00F536D8 /* ProgressTableViewTests.m */; };
+		FFA25E3A1E672ECA00F536D8 /* ProgressTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA25E391E672ECA00F536D8 /* ProgressTableViewUITests.m */; };
+		FFA25E4E1E6732D100F536D8 /* ProgressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA25E471E6732D100F536D8 /* ProgressTableViewCell.xib */; };
+		FFA25E4F1E6732D100F536D8 /* ProgressTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA25E481E6732D100F536D8 /* ProgressTableViewManager.m */; };
+		FFA25E501E6732D100F536D8 /* ProgressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA25E491E6732D100F536D8 /* ProgressTableViewCell.m */; };
+		FFA25E511E6732D100F536D8 /* TableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA25E4D1E6732D100F536D8 /* TableViewManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFA25E2B1E672ECA00F536D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA25E091E672EC900F536D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFA25E101E672EC900F536D8;
+			remoteInfo = ProgressTableView;
+		};
+		FFA25E361E672ECA00F536D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA25E091E672EC900F536D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFA25E101E672EC900F536D8;
+			remoteInfo = ProgressTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECC5040F1E67D41C000E2B33 /* CellInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellInfo.h; sourceTree = "<group>"; };
+		ECC504101E67D41C000E2B33 /* CellInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellInfo.m; sourceTree = "<group>"; };
+		FFA25E111E672ECA00F536D8 /* ProgressTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA25E151E672ECA00F536D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFA25E171E672ECA00F536D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFA25E181E672ECA00F536D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFA25E1A1E672ECA00F536D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFA25E1B1E672ECA00F536D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFA25E1E1E672ECA00F536D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFA25E201E672ECA00F536D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFA25E231E672ECA00F536D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFA25E251E672ECA00F536D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA25E2A1E672ECA00F536D8 /* ProgressTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA25E2E1E672ECA00F536D8 /* ProgressTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressTableViewTests.m; sourceTree = "<group>"; };
+		FFA25E301E672ECA00F536D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA25E351E672ECA00F536D8 /* ProgressTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA25E391E672ECA00F536D8 /* ProgressTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressTableViewUITests.m; sourceTree = "<group>"; };
+		FFA25E3B1E672ECA00F536D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA25E471E6732D100F536D8 /* ProgressTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressTableViewCell.xib; sourceTree = "<group>"; };
+		FFA25E481E6732D100F536D8 /* ProgressTableViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressTableViewManager.m; sourceTree = "<group>"; };
+		FFA25E491E6732D100F536D8 /* ProgressTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressTableViewCell.m; sourceTree = "<group>"; };
+		FFA25E4A1E6732D100F536D8 /* ProgressTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressTableViewCell.h; sourceTree = "<group>"; };
+		FFA25E4B1E6732D100F536D8 /* ProgressTableViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressTableViewManager.h; sourceTree = "<group>"; };
+		FFA25E4C1E6732D100F536D8 /* TableViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewManager.h; sourceTree = "<group>"; };
+		FFA25E4D1E6732D100F536D8 /* TableViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFA25E0E1E672EC900F536D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA25E271E672ECA00F536D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA25E321E672ECA00F536D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFA25E081E672EC900F536D8 = {
+			isa = PBXGroup;
+			children = (
+				FFA25E131E672ECA00F536D8 /* ProgressTableView */,
+				FFA25E2D1E672ECA00F536D8 /* ProgressTableViewTests */,
+				FFA25E381E672ECA00F536D8 /* ProgressTableViewUITests */,
+				FFA25E121E672ECA00F536D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFA25E121E672ECA00F536D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFA25E111E672ECA00F536D8 /* ProgressTableView.app */,
+				FFA25E2A1E672ECA00F536D8 /* ProgressTableViewTests.xctest */,
+				FFA25E351E672ECA00F536D8 /* ProgressTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFA25E131E672ECA00F536D8 /* ProgressTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FFA25E171E672ECA00F536D8 /* AppDelegate.h */,
+				FFA25E181E672ECA00F536D8 /* AppDelegate.m */,
+				FFA25E1A1E672ECA00F536D8 /* ViewController.h */,
+				FFA25E1B1E672ECA00F536D8 /* ViewController.m */,
+				FFA25E4A1E6732D100F536D8 /* ProgressTableViewCell.h */,
+				FFA25E491E6732D100F536D8 /* ProgressTableViewCell.m */,
+				FFA25E471E6732D100F536D8 /* ProgressTableViewCell.xib */,
+				FFA25E4B1E6732D100F536D8 /* ProgressTableViewManager.h */,
+				FFA25E481E6732D100F536D8 /* ProgressTableViewManager.m */,
+				FFA25E4C1E6732D100F536D8 /* TableViewManager.h */,
+				FFA25E4D1E6732D100F536D8 /* TableViewManager.m */,
+				ECC5040F1E67D41C000E2B33 /* CellInfo.h */,
+				ECC504101E67D41C000E2B33 /* CellInfo.m */,
+				FFA25E1D1E672ECA00F536D8 /* Main.storyboard */,
+				FFA25E201E672ECA00F536D8 /* Assets.xcassets */,
+				FFA25E221E672ECA00F536D8 /* LaunchScreen.storyboard */,
+				FFA25E251E672ECA00F536D8 /* Info.plist */,
+				FFA25E141E672ECA00F536D8 /* Supporting Files */,
+			);
+			path = ProgressTableView;
+			sourceTree = "<group>";
+		};
+		FFA25E141E672ECA00F536D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFA25E151E672ECA00F536D8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFA25E2D1E672ECA00F536D8 /* ProgressTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFA25E2E1E672ECA00F536D8 /* ProgressTableViewTests.m */,
+				FFA25E301E672ECA00F536D8 /* Info.plist */,
+			);
+			path = ProgressTableViewTests;
+			sourceTree = "<group>";
+		};
+		FFA25E381E672ECA00F536D8 /* ProgressTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFA25E391E672ECA00F536D8 /* ProgressTableViewUITests.m */,
+				FFA25E3B1E672ECA00F536D8 /* Info.plist */,
+			);
+			path = ProgressTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFA25E101E672EC900F536D8 /* ProgressTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA25E3E1E672ECA00F536D8 /* Build configuration list for PBXNativeTarget "ProgressTableView" */;
+			buildPhases = (
+				FFA25E0D1E672EC900F536D8 /* Sources */,
+				FFA25E0E1E672EC900F536D8 /* Frameworks */,
+				FFA25E0F1E672EC900F536D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgressTableView;
+			productName = ProgressTableView;
+			productReference = FFA25E111E672ECA00F536D8 /* ProgressTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFA25E291E672ECA00F536D8 /* ProgressTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA25E411E672ECA00F536D8 /* Build configuration list for PBXNativeTarget "ProgressTableViewTests" */;
+			buildPhases = (
+				FFA25E261E672ECA00F536D8 /* Sources */,
+				FFA25E271E672ECA00F536D8 /* Frameworks */,
+				FFA25E281E672ECA00F536D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFA25E2C1E672ECA00F536D8 /* PBXTargetDependency */,
+			);
+			name = ProgressTableViewTests;
+			productName = ProgressTableViewTests;
+			productReference = FFA25E2A1E672ECA00F536D8 /* ProgressTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFA25E341E672ECA00F536D8 /* ProgressTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA25E441E672ECA00F536D8 /* Build configuration list for PBXNativeTarget "ProgressTableViewUITests" */;
+			buildPhases = (
+				FFA25E311E672ECA00F536D8 /* Sources */,
+				FFA25E321E672ECA00F536D8 /* Frameworks */,
+				FFA25E331E672ECA00F536D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFA25E371E672ECA00F536D8 /* PBXTargetDependency */,
+			);
+			name = ProgressTableViewUITests;
+			productName = ProgressTableViewUITests;
+			productReference = FFA25E351E672ECA00F536D8 /* ProgressTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFA25E091E672EC900F536D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = microwave;
+				TargetAttributes = {
+					FFA25E101E672EC900F536D8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2R4QS48Y83;
+						ProvisioningStyle = Automatic;
+					};
+					FFA25E291E672ECA00F536D8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2R4QS48Y83;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFA25E101E672EC900F536D8;
+					};
+					FFA25E341E672ECA00F536D8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2R4QS48Y83;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFA25E101E672EC900F536D8;
+					};
+				};
+			};
+			buildConfigurationList = FFA25E0C1E672EC900F536D8 /* Build configuration list for PBXProject "ProgressTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFA25E081E672EC900F536D8;
+			productRefGroup = FFA25E121E672ECA00F536D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFA25E101E672EC900F536D8 /* ProgressTableView */,
+				FFA25E291E672ECA00F536D8 /* ProgressTableViewTests */,
+				FFA25E341E672ECA00F536D8 /* ProgressTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFA25E0F1E672EC900F536D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA25E241E672ECA00F536D8 /* LaunchScreen.storyboard in Resources */,
+				FFA25E211E672ECA00F536D8 /* Assets.xcassets in Resources */,
+				FFA25E4E1E6732D100F536D8 /* ProgressTableViewCell.xib in Resources */,
+				FFA25E1F1E672ECA00F536D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA25E281E672ECA00F536D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA25E331E672ECA00F536D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFA25E0D1E672EC900F536D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA25E4F1E6732D100F536D8 /* ProgressTableViewManager.m in Sources */,
+				FFA25E511E6732D100F536D8 /* TableViewManager.m in Sources */,
+				ECC504111E67D41C000E2B33 /* CellInfo.m in Sources */,
+				FFA25E1C1E672ECA00F536D8 /* ViewController.m in Sources */,
+				FFA25E501E6732D100F536D8 /* ProgressTableViewCell.m in Sources */,
+				FFA25E191E672ECA00F536D8 /* AppDelegate.m in Sources */,
+				FFA25E161E672ECA00F536D8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA25E261E672ECA00F536D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA25E2F1E672ECA00F536D8 /* ProgressTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA25E311E672ECA00F536D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA25E3A1E672ECA00F536D8 /* ProgressTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFA25E2C1E672ECA00F536D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFA25E101E672EC900F536D8 /* ProgressTableView */;
+			targetProxy = FFA25E2B1E672ECA00F536D8 /* PBXContainerItemProxy */;
+		};
+		FFA25E371E672ECA00F536D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFA25E101E672EC900F536D8 /* ProgressTableView */;
+			targetProxy = FFA25E361E672ECA00F536D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFA25E1D1E672ECA00F536D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA25E1E1E672ECA00F536D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFA25E221E672ECA00F536D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA25E231E672ECA00F536D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFA25E3C1E672ECA00F536D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFA25E3D1E672ECA00F536D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFA25E3F1E672ECA00F536D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = ProgressTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave.-micro.ProgressTableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFA25E401E672ECA00F536D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = ProgressTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave.-micro.ProgressTableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFA25E421E672ECA00F536D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = ProgressTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave.-micro.ProgressTableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgressTableView.app/ProgressTableView";
+			};
+			name = Debug;
+		};
+		FFA25E431E672ECA00F536D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = ProgressTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave.-micro.ProgressTableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgressTableView.app/ProgressTableView";
+			};
+			name = Release;
+		};
+		FFA25E451E672ECA00F536D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = ProgressTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave.-micro.ProgressTableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProgressTableView;
+			};
+			name = Debug;
+		};
+		FFA25E461E672ECA00F536D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = ProgressTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave.-micro.ProgressTableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProgressTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFA25E0C1E672EC900F536D8 /* Build configuration list for PBXProject "ProgressTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA25E3C1E672ECA00F536D8 /* Debug */,
+				FFA25E3D1E672ECA00F536D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA25E3E1E672ECA00F536D8 /* Build configuration list for PBXNativeTarget "ProgressTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA25E3F1E672ECA00F536D8 /* Debug */,
+				FFA25E401E672ECA00F536D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA25E411E672ECA00F536D8 /* Build configuration list for PBXNativeTarget "ProgressTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA25E421E672ECA00F536D8 /* Debug */,
+				FFA25E431E672ECA00F536D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA25E441E672ECA00F536D8 /* Build configuration list for PBXNativeTarget "ProgressTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA25E451E672ECA00F536D8 /* Debug */,
+				FFA25E461E672ECA00F536D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFA25E091E672EC900F536D8 /* Project object */;
+}

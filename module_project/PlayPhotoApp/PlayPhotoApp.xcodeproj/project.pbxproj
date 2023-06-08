@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC25092C1E937C19005DB1B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC25092B1E937C19005DB1B2 /* main.m */; };
+		EC25092F1E937C19005DB1B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC25092E1E937C19005DB1B2 /* AppDelegate.m */; };
+		EC2509321E937C19005DB1B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2509311E937C19005DB1B2 /* ViewController.m */; };
+		EC2509351E937C19005DB1B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2509331E937C19005DB1B2 /* Main.storyboard */; };
+		EC2509371E937C19005DB1B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2509361E937C19005DB1B2 /* Assets.xcassets */; };
+		EC25093A1E937C19005DB1B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2509381E937C19005DB1B2 /* LaunchScreen.storyboard */; };
+		EC2509451E937C19005DB1B2 /* PlayPhotoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2509441E937C19005DB1B2 /* PlayPhotoAppTests.m */; };
+		EC2509501E937C19005DB1B2 /* PlayPhotoAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC25094F1E937C19005DB1B2 /* PlayPhotoAppUITests.m */; };
+		EC2509601E937C83005DB1B2 /* NewDetailImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC25095E1E937C83005DB1B2 /* NewDetailImageViewController.m */; };
+		EC2509611E937C83005DB1B2 /* NewDetailImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC25095F1E937C83005DB1B2 /* NewDetailImageViewController.xib */; };
+		EC2509641E937D27005DB1B2 /* GetAllAssetsTask.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2509631E937D27005DB1B2 /* GetAllAssetsTask.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC2509411E937C19005DB1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC25091F1E937C19005DB1B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2509261E937C19005DB1B2;
+			remoteInfo = PlayPhotoApp;
+		};
+		EC25094C1E937C19005DB1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC25091F1E937C19005DB1B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2509261E937C19005DB1B2;
+			remoteInfo = PlayPhotoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC2509271E937C19005DB1B2 /* PlayPhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayPhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC25092B1E937C19005DB1B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC25092D1E937C19005DB1B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC25092E1E937C19005DB1B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC2509301E937C19005DB1B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC2509311E937C19005DB1B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC2509341E937C19005DB1B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC2509361E937C19005DB1B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC2509391E937C19005DB1B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC25093B1E937C19005DB1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2509401E937C19005DB1B2 /* PlayPhotoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayPhotoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2509441E937C19005DB1B2 /* PlayPhotoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayPhotoAppTests.m; sourceTree = "<group>"; };
+		EC2509461E937C19005DB1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC25094B1E937C19005DB1B2 /* PlayPhotoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayPhotoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC25094F1E937C19005DB1B2 /* PlayPhotoAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayPhotoAppUITests.m; sourceTree = "<group>"; };
+		EC2509511E937C19005DB1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC25095D1E937C83005DB1B2 /* NewDetailImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewDetailImageViewController.h; sourceTree = "<group>"; };
+		EC25095E1E937C83005DB1B2 /* NewDetailImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewDetailImageViewController.m; sourceTree = "<group>"; };
+		EC25095F1E937C83005DB1B2 /* NewDetailImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewDetailImageViewController.xib; sourceTree = "<group>"; };
+		EC2509621E937D27005DB1B2 /* GetAllAssetsTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAllAssetsTask.h; sourceTree = "<group>"; };
+		EC2509631E937D27005DB1B2 /* GetAllAssetsTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAllAssetsTask.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2509241E937C19005DB1B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC25093D1E937C19005DB1B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2509481E937C19005DB1B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC25091E1E937C19005DB1B2 = {
+			isa = PBXGroup;
+			children = (
+				EC2509291E937C19005DB1B2 /* PlayPhotoApp */,
+				EC2509431E937C19005DB1B2 /* PlayPhotoAppTests */,
+				EC25094E1E937C19005DB1B2 /* PlayPhotoAppUITests */,
+				EC2509281E937C19005DB1B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2509281E937C19005DB1B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2509271E937C19005DB1B2 /* PlayPhotoApp.app */,
+				EC2509401E937C19005DB1B2 /* PlayPhotoAppTests.xctest */,
+				EC25094B1E937C19005DB1B2 /* PlayPhotoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC2509291E937C19005DB1B2 /* PlayPhotoApp */ = {
+			isa = PBXGroup;
+			children = (
+				EC25092D1E937C19005DB1B2 /* AppDelegate.h */,
+				EC25092E1E937C19005DB1B2 /* AppDelegate.m */,
+				EC2509301E937C19005DB1B2 /* ViewController.h */,
+				EC2509311E937C19005DB1B2 /* ViewController.m */,
+				EC25095D1E937C83005DB1B2 /* NewDetailImageViewController.h */,
+				EC25095E1E937C83005DB1B2 /* NewDetailImageViewController.m */,
+				EC25095F1E937C83005DB1B2 /* NewDetailImageViewController.xib */,
+				EC2509621E937D27005DB1B2 /* GetAllAssetsTask.h */,
+				EC2509631E937D27005DB1B2 /* GetAllAssetsTask.m */,
+				EC2509331E937C19005DB1B2 /* Main.storyboard */,
+				EC2509361E937C19005DB1B2 /* Assets.xcassets */,
+				EC2509381E937C19005DB1B2 /* LaunchScreen.storyboard */,
+				EC25093B1E937C19005DB1B2 /* Info.plist */,
+				EC25092A1E937C19005DB1B2 /* Supporting Files */,
+			);
+			path = PlayPhotoApp;
+			sourceTree = "<group>";
+		};
+		EC25092A1E937C19005DB1B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC25092B1E937C19005DB1B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC2509431E937C19005DB1B2 /* PlayPhotoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2509441E937C19005DB1B2 /* PlayPhotoAppTests.m */,
+				EC2509461E937C19005DB1B2 /* Info.plist */,
+			);
+			path = PlayPhotoAppTests;
+			sourceTree = "<group>";
+		};
+		EC25094E1E937C19005DB1B2 /* PlayPhotoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC25094F1E937C19005DB1B2 /* PlayPhotoAppUITests.m */,
+				EC2509511E937C19005DB1B2 /* Info.plist */,
+			);
+			path = PlayPhotoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC2509261E937C19005DB1B2 /* PlayPhotoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2509541E937C19005DB1B2 /* Build configuration list for PBXNativeTarget "PlayPhotoApp" */;
+			buildPhases = (
+				EC2509231E937C19005DB1B2 /* Sources */,
+				EC2509241E937C19005DB1B2 /* Frameworks */,
+				EC2509251E937C19005DB1B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayPhotoApp;
+			productName = PlayPhotoApp;
+			productReference = EC2509271E937C19005DB1B2 /* PlayPhotoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC25093F1E937C19005DB1B2 /* PlayPhotoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2509571E937C19005DB1B2 /* Build configuration list for PBXNativeTarget "PlayPhotoAppTests" */;
+			buildPhases = (
+				EC25093C1E937C19005DB1B2 /* Sources */,
+				EC25093D1E937C19005DB1B2 /* Frameworks */,
+				EC25093E1E937C19005DB1B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2509421E937C19005DB1B2 /* PBXTargetDependency */,
+			);
+			name = PlayPhotoAppTests;
+			productName = PlayPhotoAppTests;
+			productReference = EC2509401E937C19005DB1B2 /* PlayPhotoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC25094A1E937C19005DB1B2 /* PlayPhotoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC25095A1E937C19005DB1B2 /* Build configuration list for PBXNativeTarget "PlayPhotoAppUITests" */;
+			buildPhases = (
+				EC2509471E937C19005DB1B2 /* Sources */,
+				EC2509481E937C19005DB1B2 /* Frameworks */,
+				EC2509491E937C19005DB1B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC25094D1E937C19005DB1B2 /* PBXTargetDependency */,
+			);
+			name = PlayPhotoAppUITests;
+			productName = PlayPhotoAppUITests;
+			productReference = EC25094B1E937C19005DB1B2 /* PlayPhotoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC25091F1E937C19005DB1B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = microwave;
+				TargetAttributes = {
+					EC2509261E937C19005DB1B2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2R4QS48Y83;
+						ProvisioningStyle = Automatic;
+					};
+					EC25093F1E937C19005DB1B2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2R4QS48Y83;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC2509261E937C19005DB1B2;
+					};
+					EC25094A1E937C19005DB1B2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2R4QS48Y83;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC2509261E937C19005DB1B2;
+					};
+				};
+			};
+			buildConfigurationList = EC2509221E937C19005DB1B2 /* Build configuration list for PBXProject "PlayPhotoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC25091E1E937C19005DB1B2;
+			productRefGroup = EC2509281E937C19005DB1B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2509261E937C19005DB1B2 /* PlayPhotoApp */,
+				EC25093F1E937C19005DB1B2 /* PlayPhotoAppTests */,
+				EC25094A1E937C19005DB1B2 /* PlayPhotoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC2509251E937C19005DB1B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2509611E937C83005DB1B2 /* NewDetailImageViewController.xib in Resources */,
+				EC25093A1E937C19005DB1B2 /* LaunchScreen.storyboard in Resources */,
+				EC2509371E937C19005DB1B2 /* Assets.xcassets in Resources */,
+				EC2509351E937C19005DB1B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC25093E1E937C19005DB1B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2509491E937C19005DB1B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2509231E937C19005DB1B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2509601E937C83005DB1B2 /* NewDetailImageViewController.m in Sources */,
+				EC2509321E937C19005DB1B2 /* ViewController.m in Sources */,
+				EC2509641E937D27005DB1B2 /* GetAllAssetsTask.m in Sources */,
+				EC25092F1E937C19005DB1B2 /* AppDelegate.m in Sources */,
+				EC25092C1E937C19005DB1B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC25093C1E937C19005DB1B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2509451E937C19005DB1B2 /* PlayPhotoAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2509471E937C19005DB1B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2509501E937C19005DB1B2 /* PlayPhotoAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC2509421E937C19005DB1B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2509261E937C19005DB1B2 /* PlayPhotoApp */;
+			targetProxy = EC2509411E937C19005DB1B2 /* PBXContainerItemProxy */;
+		};
+		EC25094D1E937C19005DB1B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2509261E937C19005DB1B2 /* PlayPhotoApp */;
+			targetProxy = EC25094C1E937C19005DB1B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC2509331E937C19005DB1B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2509341E937C19005DB1B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC2509381E937C19005DB1B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2509391E937C19005DB1B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC2509521E937C19005DB1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC2509531E937C19005DB1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC2509551E937C19005DB1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = PlayPhotoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.PlayPhotoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC2509561E937C19005DB1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = PlayPhotoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.PlayPhotoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC2509581E937C19005DB1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = PlayPhotoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.PlayPhotoAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayPhotoApp.app/PlayPhotoApp";
+			};
+			name = Debug;
+		};
+		EC2509591E937C19005DB1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = PlayPhotoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.PlayPhotoAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayPhotoApp.app/PlayPhotoApp";
+			};
+			name = Release;
+		};
+		EC25095B1E937C19005DB1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = PlayPhotoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.PlayPhotoAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlayPhotoApp;
+			};
+			name = Debug;
+		};
+		EC25095C1E937C19005DB1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2R4QS48Y83;
+				INFOPLIST_FILE = PlayPhotoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.wave-micro.PlayPhotoAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlayPhotoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2509221E937C19005DB1B2 /* Build configuration list for PBXProject "PlayPhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2509521E937C19005DB1B2 /* Debug */,
+				EC2509531E937C19005DB1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2509541E937C19005DB1B2 /* Build configuration list for PBXNativeTarget "PlayPhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2509551E937C19005DB1B2 /* Debug */,
+				EC2509561E937C19005DB1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC2509571E937C19005DB1B2 /* Build configuration list for PBXNativeTarget "PlayPhotoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2509581E937C19005DB1B2 /* Debug */,
+				EC2509591E937C19005DB1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC25095A1E937C19005DB1B2 /* Build configuration list for PBXNativeTarget "PlayPhotoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC25095B1E937C19005DB1B2 /* Debug */,
+				EC25095C1E937C19005DB1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC25091F1E937C19005DB1B2 /* Project object */;
+}
