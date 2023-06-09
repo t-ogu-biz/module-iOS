@@ -1,6 +1,5 @@
 //
 //  GetAllAssetsTask.m
-//  NHK_ComApp
 //
 //  Created by 小口 哲史 on 2017/04/04.
 //  Copyright © 2017年 小口 哲史. All rights reserved.
